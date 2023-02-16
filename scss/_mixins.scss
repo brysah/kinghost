@@ -3,3 +3,14 @@
         @content;
     }
 }
+
+@mixin style-btn($height,$bg,$bgHover,$colorText,$colorTextHover){
+    display: inline-block;
+    height: $height;
+    background-color: $bg;
+    border-radius: 0.375rem;
+    padding: 0 3.125rem;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
