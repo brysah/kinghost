@@ -11,3 +11,9 @@
 img{
     max-width: 100%;
 }
+
+html{
+    @include responsive(1280px){
+        font-size: 93%;
+    }
+}
