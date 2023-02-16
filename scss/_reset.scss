@@ -13,6 +13,7 @@ img{
 }
 
 html{
+    scroll-behavior: smooth;
     @include responsive(1280px){
         font-size: 92%;
     }
